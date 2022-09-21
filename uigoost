@@ -1,3 +1,4 @@
+print("123")
 do  local ui =  game:GetService("CoreGui").RobloxGui.Modules:FindFirstChild("GoostUi")  if ui then ui:Destroy() end end
 
 local UserInputService = game:GetService("UserInputService")
@@ -279,8 +280,6 @@ local LoadingUi = {}
             break
 			end
 		end
-    end
-
 local Create = {}
     function Create:window()
         local FocusUI = false ;
@@ -1593,7 +1592,7 @@ end
 end
     return Tab 
 end
-	return Create
+ 	return Create
 end
 	return LoadingUi
 ---------------------
