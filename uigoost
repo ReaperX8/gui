@@ -69,7 +69,8 @@ local function MakeDraggable(topbarobject, object)
 end
 
 local Create = {}
-	function Create:CreateLoading()
+	function Create:CreateLoading(LoadingStatr)
+		if LoadingStatr == true then
 		local PageLoading = Instance.new("Frame")
 		PageLoading.Name = "Main"
 		PageLoading.Parent = GoostUi
@@ -276,6 +277,7 @@ local Create = {}
 			):Play()
 
 			break
+				end
 			end
 		end
     function Create:window()
@@ -385,8 +387,6 @@ local Create = {}
 				end 
 			end
 		end)
-
-	
 
 local Tab = {}
     function Tab:CreateTab(text)
@@ -1594,3 +1594,4 @@ end
 	return LoadingUi
 end
 	return Create
+---------------------
