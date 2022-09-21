@@ -277,10 +277,8 @@ local LoadingUi = {}
             ):Play()
 
             break
-        end
-    end
-
-    return LoadingUi
+			end
+		end
     end
 
 local Create = {}
@@ -1596,4 +1594,6 @@ end
     return Tab 
 end
 	return Create
+end
+	return LoadingUi
 ---------------------
